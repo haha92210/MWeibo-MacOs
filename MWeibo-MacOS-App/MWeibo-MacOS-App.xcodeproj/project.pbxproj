@@ -546,12 +546,12 @@
 		3B14B30822CDD40500B719EC /* GUI */ = {
 			isa = PBXGroup;
 			children = (
+				3B14B30B22CDDB8B00B719EC /* Main */,
+				3B14B30922CDD40C00B719EC /* Home */,
 				3B14B30F22CDDBB600B719EC /* Message */,
 				3B14B30E22CDDBAD00B719EC /* Tools */,
 				3B14B30D22CDDBA600B719EC /* Profile */,
 				3B14B30C22CDDB9900B719EC /* Discover */,
-				3B14B30B22CDDB8B00B719EC /* Main */,
-				3B14B30922CDD40C00B719EC /* Home */,
 			);
 			path = GUI;
 			sourceTree = "<group>";
@@ -560,7 +560,8 @@
 			isa = PBXGroup;
 			children = (
 			);
-			path = Home;
+			name = Home;
+			path = "MWeibo-MacOS-App/GUI/Home";
 			sourceTree = "<group>";
 		};
 		3B14B30B22CDDB8B00B719EC /* Main */ = {

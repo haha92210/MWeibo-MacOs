@@ -14,6 +14,7 @@
  limitations under the License.
  */
 #import <Foundation/Foundation.h>
+#import <AppKit/AppKit.h>
 
 typedef uint64_t TUIAccessibilityTraits;
 

@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3B14B2D622CD9C9400B719EC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B14B2D522CD9C9400B719EC /* AppDelegate.m */; };
+		3B14B2D922CD9C9400B719EC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B14B2D822CD9C9400B719EC /* ViewController.m */; };
+		3B14B2DC22CD9C9400B719EC /* MWeibo_MacOS_App.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3B14B2DA22CD9C9400B719EC /* MWeibo_MacOS_App.xcdatamodeld */; };
+		3B14B2DE22CD9C9500B719EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B14B2DD22CD9C9500B719EC /* Assets.xcassets */; };
+		3B14B2E122CD9C9500B719EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B14B2DF22CD9C9500B719EC /* Main.storyboard */; };
+		3B14B2E422CD9C9600B719EC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B14B2E322CD9C9600B719EC /* main.m */; };
+		3B14B2EF22CD9C9600B719EC /* MWeibo_MacOS_AppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B14B2EE22CD9C9600B719EC /* MWeibo_MacOS_AppTests.m */; };
+		3B14B2FA22CD9C9600B719EC /* MWeibo_MacOS_AppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B14B2F922CD9C9600B719EC /* MWeibo_MacOS_AppUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3B14B2EB22CD9C9600B719EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3B14B2C922CD9C9400B719EC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3B14B2D022CD9C9400B719EC;
+			remoteInfo = "MWeibo-MacOS-App";
+		};
+		3B14B2F622CD9C9600B719EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3B14B2C922CD9C9400B719EC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3B14B2D022CD9C9400B719EC;
+			remoteInfo = "MWeibo-MacOS-App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3B14B2D122CD9C9400B719EC /* MWeibo-MacOS-App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MWeibo-MacOS-App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B14B2D422CD9C9400B719EC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3B14B2D522CD9C9400B719EC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3B14B2D722CD9C9400B719EC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3B14B2D822CD9C9400B719EC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3B14B2DB22CD9C9400B719EC /* MWeibo_MacOS_App.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MWeibo_MacOS_App.xcdatamodel; sourceTree = "<group>"; };
+		3B14B2DD22CD9C9500B719EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3B14B2E022CD9C9500B719EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3B14B2E222CD9C9600B719EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B14B2E322CD9C9600B719EC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3B14B2E522CD9C9600B719EC /* MWeibo_MacOS_App.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MWeibo_MacOS_App.entitlements; sourceTree = "<group>"; };
+		3B14B2EA22CD9C9600B719EC /* MWeibo-MacOS-AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MWeibo-MacOS-AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B14B2EE22CD9C9600B719EC /* MWeibo_MacOS_AppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MWeibo_MacOS_AppTests.m; sourceTree = "<group>"; };
+		3B14B2F022CD9C9600B719EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B14B2F522CD9C9600B719EC /* MWeibo-MacOS-AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MWeibo-MacOS-AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B14B2F922CD9C9600B719EC /* MWeibo_MacOS_AppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MWeibo_MacOS_AppUITests.m; sourceTree = "<group>"; };
+		3B14B2FB22CD9C9600B719EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B14B30722CD9CC700B719EC /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3B14B2CE22CD9C9400B719EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B14B2E722CD9C9600B719EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B14B2F222CD9C9600B719EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3B14B2C822CD9C9400B719EC = {
+			isa = PBXGroup;
+			children = (
+				3B14B2D322CD9C9400B719EC /* MWeibo-MacOS-App */,
+				3B14B2ED22CD9C9600B719EC /* MWeibo-MacOS-AppTests */,
+				3B14B2F822CD9C9600B719EC /* MWeibo-MacOS-AppUITests */,
+				3B14B2D222CD9C9400B719EC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3B14B2D222CD9C9400B719EC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3B14B2D122CD9C9400B719EC /* MWeibo-MacOS-App.app */,
+				3B14B2EA22CD9C9600B719EC /* MWeibo-MacOS-AppTests.xctest */,
+				3B14B2F522CD9C9600B719EC /* MWeibo-MacOS-AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3B14B2D322CD9C9400B719EC /* MWeibo-MacOS-App */ = {
+			isa = PBXGroup;
+			children = (
+				3B14B2D422CD9C9400B719EC /* AppDelegate.h */,
+				3B14B2D522CD9C9400B719EC /* AppDelegate.m */,
+				3B14B2D722CD9C9400B719EC /* ViewController.h */,
+				3B14B2D822CD9C9400B719EC /* ViewController.m */,
+				3B14B2DD22CD9C9500B719EC /* Assets.xcassets */,
+				3B14B2DF22CD9C9500B719EC /* Main.storyboard */,
+				3B14B2E222CD9C9600B719EC /* Info.plist */,
+				3B14B2E322CD9C9600B719EC /* main.m */,
+				3B14B2E522CD9C9600B719EC /* MWeibo_MacOS_App.entitlements */,
+				3B14B2DA22CD9C9400B719EC /* MWeibo_MacOS_App.xcdatamodeld */,
+			);
+			path = "MWeibo-MacOS-App";
+			sourceTree = "<group>";
+		};
+		3B14B2ED22CD9C9600B719EC /* MWeibo-MacOS-AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				3B14B2EE22CD9C9600B719EC /* MWeibo_MacOS_AppTests.m */,
+				3B14B2F022CD9C9600B719EC /* Info.plist */,
+			);
+			path = "MWeibo-MacOS-AppTests";
+			sourceTree = "<group>";
+		};
+		3B14B2F822CD9C9600B719EC /* MWeibo-MacOS-AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3B14B2F922CD9C9600B719EC /* MWeibo_MacOS_AppUITests.m */,
+				3B14B2FB22CD9C9600B719EC /* Info.plist */,
+			);
+			path = "MWeibo-MacOS-AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3B14B2D022CD9C9400B719EC /* MWeibo-MacOS-App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B14B2FE22CD9C9600B719EC /* Build configuration list for PBXNativeTarget "MWeibo-MacOS-App" */;
+			buildPhases = (
+				3B14B2CD22CD9C9400B719EC /* Sources */,
+				3B14B2CE22CD9C9400B719EC /* Frameworks */,
+				3B14B2CF22CD9C9400B719EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MWeibo-MacOS-App";
+			productName = "MWeibo-MacOS-App";
+			productReference = 3B14B2D122CD9C9400B719EC /* MWeibo-MacOS-App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3B14B2E922CD9C9600B719EC /* MWeibo-MacOS-AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B14B30122CD9C9600B719EC /* Build configuration list for PBXNativeTarget "MWeibo-MacOS-AppTests" */;
+			buildPhases = (
+				3B14B2E622CD9C9600B719EC /* Sources */,
+				3B14B2E722CD9C9600B719EC /* Frameworks */,
+				3B14B2E822CD9C9600B719EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3B14B2EC22CD9C9600B719EC /* PBXTargetDependency */,
+			);
+			name = "MWeibo-MacOS-AppTests";
+			productName = "MWeibo-MacOS-AppTests";
+			productReference = 3B14B2EA22CD9C9600B719EC /* MWeibo-MacOS-AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3B14B2F422CD9C9600B719EC /* MWeibo-MacOS-AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B14B30422CD9C9600B719EC /* Build configuration list for PBXNativeTarget "MWeibo-MacOS-AppUITests" */;
+			buildPhases = (
+				3B14B2F122CD9C9600B719EC /* Sources */,
+				3B14B2F222CD9C9600B719EC /* Frameworks */,
+				3B14B2F322CD9C9600B719EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3B14B2F722CD9C9600B719EC /* PBXTargetDependency */,
+			);
+			name = "MWeibo-MacOS-AppUITests";
+			productName = "MWeibo-MacOS-AppUITests";
+			productReference = 3B14B2F522CD9C9600B719EC /* MWeibo-MacOS-AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3B14B2C922CD9C9400B719EC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "梓铭 王";
+				TargetAttributes = {
+					3B14B2D022CD9C9400B719EC = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					3B14B2E922CD9C9600B719EC = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 3B14B2D022CD9C9400B719EC;
+					};
+					3B14B2F422CD9C9600B719EC = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 3B14B2D022CD9C9400B719EC;
+					};
+				};
+			};
+			buildConfigurationList = 3B14B2CC22CD9C9400B719EC /* Build configuration list for PBXProject "MWeibo-MacOS-App" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hans",
+			);
+			mainGroup = 3B14B2C822CD9C9400B719EC;
+			productRefGroup = 3B14B2D222CD9C9400B719EC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3B14B2D022CD9C9400B719EC /* MWeibo-MacOS-App */,
+				3B14B2E922CD9C9600B719EC /* MWeibo-MacOS-AppTests */,
+				3B14B2F422CD9C9600B719EC /* MWeibo-MacOS-AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3B14B2CF22CD9C9400B719EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B14B2DE22CD9C9500B719EC /* Assets.xcassets in Resources */,
+				3B14B2E122CD9C9500B719EC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B14B2E822CD9C9600B719EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B14B2F322CD9C9600B719EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3B14B2CD22CD9C9400B719EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B14B2D922CD9C9400B719EC /* ViewController.m in Sources */,
+				3B14B2D622CD9C9400B719EC /* AppDelegate.m in Sources */,
+				3B14B2E422CD9C9600B719EC /* main.m in Sources */,
+				3B14B2DC22CD9C9400B719EC /* MWeibo_MacOS_App.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B14B2E622CD9C9600B719EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B14B2EF22CD9C9600B719EC /* MWeibo_MacOS_AppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B14B2F122CD9C9600B719EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B14B2FA22CD9C9600B719EC /* MWeibo_MacOS_AppUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3B14B2EC22CD9C9600B719EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3B14B2D022CD9C9400B719EC /* MWeibo-MacOS-App */;
+			targetProxy = 3B14B2EB22CD9C9600B719EC /* PBXContainerItemProxy */;
+		};
+		3B14B2F722CD9C9600B719EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3B14B2D022CD9C9400B719EC /* MWeibo-MacOS-App */;
+			targetProxy = 3B14B2F622CD9C9600B719EC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3B14B2DF22CD9C9500B719EC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B14B2E022CD9C9500B719EC /* Base */,
+				3B14B30722CD9CC700B719EC /* zh-Hans */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3B14B2FC22CD9C9600B719EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		3B14B2FD22CD9C9600B719EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		3B14B2FF22CD9C9600B719EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "MWeibo-MacOS-App/MWeibo_MacOS_App.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "MWeibo-MacOS-App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.Simpon.MWeibo-MacOS-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3B14B30022CD9C9600B719EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "MWeibo-MacOS-App/MWeibo_MacOS_App.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "MWeibo-MacOS-App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.Simpon.MWeibo-MacOS-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3B14B30222CD9C9600B719EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "MWeibo-MacOS-AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.Simpon.MWeibo-MacOS-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MWeibo-MacOS-App.app/Contents/MacOS/MWeibo-MacOS-App";
+			};
+			name = Debug;
+		};
+		3B14B30322CD9C9600B719EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "MWeibo-MacOS-AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.Simpon.MWeibo-MacOS-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MWeibo-MacOS-App.app/Contents/MacOS/MWeibo-MacOS-App";
+			};
+			name = Release;
+		};
+		3B14B30522CD9C9600B719EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "MWeibo-MacOS-AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.Simpon.MWeibo-MacOS-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "MWeibo-MacOS-App";
+			};
+			name = Debug;
+		};
+		3B14B30622CD9C9600B719EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "MWeibo-MacOS-AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.Simpon.MWeibo-MacOS-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "MWeibo-MacOS-App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3B14B2CC22CD9C9400B719EC /* Build configuration list for PBXProject "MWeibo-MacOS-App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B14B2FC22CD9C9600B719EC /* Debug */,
+				3B14B2FD22CD9C9600B719EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B14B2FE22CD9C9600B719EC /* Build configuration list for PBXNativeTarget "MWeibo-MacOS-App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B14B2FF22CD9C9600B719EC /* Debug */,
+				3B14B30022CD9C9600B719EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B14B30122CD9C9600B719EC /* Build configuration list for PBXNativeTarget "MWeibo-MacOS-AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B14B30222CD9C9600B719EC /* Debug */,
+				3B14B30322CD9C9600B719EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B14B30422CD9C9600B719EC /* Build configuration list for PBXNativeTarget "MWeibo-MacOS-AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B14B30522CD9C9600B719EC /* Debug */,
+				3B14B30622CD9C9600B719EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3B14B2DA22CD9C9400B719EC /* MWeibo_MacOS_App.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3B14B2DB22CD9C9400B719EC /* MWeibo_MacOS_App.xcdatamodel */,
+			);
+			currentVersion = 3B14B2DB22CD9C9400B719EC /* MWeibo_MacOS_App.xcdatamodel */;
+			path = MWeibo_MacOS_App.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3B14B2C922CD9C9400B719EC /* Project object */;
+}

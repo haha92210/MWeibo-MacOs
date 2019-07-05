@@ -171,17 +171,17 @@ NSParagraphStyle *ABNSParagraphStyleForTextAlignment(TUITextAlignment alignment)
 	CTTextAlignment nativeTextAlignment;
 	switch(alignment) {
 		case TUITextAlignmentRight:
-			nativeTextAlignment = kCTRightTextAlignment;
+			nativeTextAlignment = kCTTextAlignmentRight;
 			break;
 		case TUITextAlignmentCenter:
-			nativeTextAlignment = kCTCenterTextAlignment;
+			nativeTextAlignment = kCTTextAlignmentCenter;
 			break;
 		case TUITextAlignmentJustified:
-			nativeTextAlignment = kCTJustifiedTextAlignment;
+			nativeTextAlignment = kCTTextAlignmentJustified;
 			break;
 		case TUITextAlignmentLeft:
 		default:
-			nativeTextAlignment = kCTLeftTextAlignment;
+			nativeTextAlignment = kCTTextAlignmentLeft;
 			break;
 	}
 	
